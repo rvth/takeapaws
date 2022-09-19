@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Space+Mono&display=swap" rel="stylesheet">
+    <title>Take a Paws</title>
+
+</head>
+
+<body>
+<header>
+    <nav>
+        <div class="container container-nav">
+            <ul>
+            <li><a href="{{ url_for('about') }}">About</a></li>
+            <li><a class="active" href="{{ url_for('home') }}">Home</a></li>
+            </ul>
+
+  <div class="container container-header">
+        <div class="title">
+            <a href="{{ url_for('home') }}"><img alt="logo" src="{{url_for('static', filename='logo.webp')}}">
+            </a>
+        </div>
+    </div>
+</header>
+
+<br>
+
+<button class="btn btn-primary random">Show me a doggo! &#128062;</button>
+
+      <div id="dogImageContainer"></div>
+
+<script src="{{url_for('static', filename='script.js')}}"></script>
+
+<br>
+<br>
+<br>
+
+</body>
+
+<div class="cards">
+    <div class="card">
+<footer class="page_footer">
+<p>&#128062; Made with &#128420; by Ruth</p>
+
+</footer>

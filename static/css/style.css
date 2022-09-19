@@ -1,0 +1,176 @@
+/* layout */
+
+title{
+    color: black;
+    font-size: 4.375rem;
+    font-weight: bold;
+    font-family: 'Space Mono', monospace;
+}
+
+h1{
+    color: black;
+    font-size: 1.875rem;
+    font-weight: bold;
+    font-family: 'Space Mono', monospace;
+}
+
+h2{
+    color: black;
+    font-size: 1.4375rem;
+    font-weight: bold;
+    font-family: 'Space Mono', monospace;
+}
+
+h3{
+    color: black;
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: 'Space Mono', monospace;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin-top:20px;
+    margin-bottom:10px;
+    margin-left: 20px;
+  }
+
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+body {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.0625rem;
+    background: #FAFAFA;
+}
+
+/* images */
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.responsive {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+}
+
+/* nav and header */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+  }
+
+.container container-nav ul, li{
+    float: right;
+  }
+
+.container container-nav ul, li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 17px;
+    text-decoration: none;
+  }
+
+.container container-nav ul, li a:hover {
+    background-color: #97f3f6;
+  }
+
+  .nav a.active {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .title {
+    color: black;
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    font-size: 2.9375rem;
+  }
+
+  .hero_role {
+    font-size: 1.3rem;
+   }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* dog image */
+
+.alert{
+  display:none;
+}
+
+img{
+  max-height:300px;
+}
+
+#listImageContainer{
+  margin-top:30px;
+}
+
+/* button */
+
+button{
+    background-color: #D9D9D9;
+    color: black;
+    font-family: 'Space Mono', monospace;
+    padding: 10px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 7px;
+    margin: -5px -50px;
+    margin-bottom: 20px;
+    position:relative;
+    top:20%;
+    left:47%;
+}
+
+button:hover {
+    background-color: #97f3f6;
+    color: black;
+  }
+
+
+/* footer */
+
+  .cards {
+    display: grid;
+    align-items: center;
+    grid-gap: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+
+  .card {
+
+  }
+
+  .card {
+    background-color: #fff;
+    box-shadow: 3px 5px #b5c0f6;
+    border-radius: 7px;
+  }
+
+.page_footer {
+    text-align: center;
+    padding: 1em 0;
+    font-size: .9rem;
+  }
+

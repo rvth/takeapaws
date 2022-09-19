@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Space+Mono&display=swap" rel="stylesheet">
+    <title>Take a Paws</title>
+
+</head>
+
+<body>
+<header>
+    <nav>
+        <div class="container container-nav">
+            <ul>
+            <li><a href="{{ url_for('about') }}">About</a></li>
+            <li><a class="active" href="{{ url_for('home') }}">Home</a></li>
+            </ul>
+
+  <div class="container container-header">
+        <div class="title">
+            <a href="{{ url_for('home') }}"><img alt="logo" src="{{url_for('static', filename='logo.webp')}}">
+            </a>
+        </div>
+    </div>
+</header>
