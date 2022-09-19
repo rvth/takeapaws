@@ -4,7 +4,7 @@ title{
     color: black;
     font-size: 4.375rem;
     font-weight: bold;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Shrikhand', cursive;
 }
 
 h1{
@@ -25,7 +25,8 @@ h3{
     color: black;
     font-size: 1.25rem;
     font-weight: bold;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -94,7 +95,7 @@ ul {
 
   .title {
     color: black;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Shrikhand', cursive;
     text-align: center;
     font-size: 2.9375rem;
   }
@@ -139,7 +140,7 @@ button{
     margin-bottom: 20px;
     position:relative;
     top:20%;
-    left:47%;
+    left:50%;
 }
 
 button:hover {
