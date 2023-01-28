@@ -11,5 +11,5 @@ def about():
     return render_template("about.html")
 
 @app.route("/resources")
-def crawling():
+def resources():
     return render_template("resources.html")
