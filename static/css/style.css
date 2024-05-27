@@ -1,16 +1,11 @@
 /* layout */
-.title {
-    color: black;
-    font-size: 4.375rem;
-    font-weight: bold;
-    font-family: 'Playfair Display', monospace;
-}
 
 h1 {
     color: black;
-    font-size: 1.875rem;
+    font-size: 1.7rem;
     font-weight: bold;
     font-family: 'Playfair Display', monospace;
+    text-align: center;
 }
 
 h2 {
