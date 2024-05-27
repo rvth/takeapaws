@@ -1,11 +1,11 @@
 /* layout */
 
-h1 {
+h1{
     color: black;
-    font-size: 1.7rem;
+    font-size: 50px;
     font-weight: bold;
     font-family: 'Playfair Display', monospace;
-    text-align: center;
+   text-align: center;
 }
 
 h2 {
