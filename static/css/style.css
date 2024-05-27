@@ -9,6 +9,17 @@ h1{
     margin-bottom: 10px;
 }
 
+/* Media query for smaller devices */
+@media only screen and (max-width: 768px) {
+    h1 {
+        padding: 10px; /* Adjust padding for smaller devices */
+    }
+
+    h1 {
+        font-size: 1.5rem; /* Adjust font size for smaller devices */
+    }
+}
+
 h2 {
     color: black;
     font-size: 1.70rem;
