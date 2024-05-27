@@ -1,28 +1,31 @@
 /* layout */
 
-title{
+/* The title selector is removed since it is not a valid HTML element to style */
+
+/* .title class already exists and is used in your HTML */
+.title {
     color: black;
     font-size: 4.375rem;
     font-weight: bold;
     font-family: 'Playfair Display', monospace;
 }
 
-h1{
+h1 {
     color: black;
     font-size: 1.875rem;
     font-weight: bold;
     font-family: 'Playfair Display', monospace;
 }
 
-h2{
+h2 {
     color: black;
     font-size: 1.70rem;
     font-weight: bold;
-    font-family: 'Playfair Display', cursive;
+    font-family: 'Playfair Display', monospace;
     text-align: center;
 }
 
-h3{
+h3 {
     color: black;
     font-size: 1.25rem;
     font-weight: bold;
@@ -30,13 +33,13 @@ h3{
     text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6{
-    margin-top:20px;
-    margin-bottom:10px;
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 20px;
+    margin-bottom: 10px;
     margin-left: 20px;
-  }
+}
 
-p{
+p {
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
@@ -52,15 +55,15 @@ body {
 /* images */
 
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .responsive {
-  width: 100%;
-  max-width: 1000px;
-  height: auto;
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
 }
 
 /* nav and header */
@@ -72,64 +75,65 @@ ul {
     color: black;
     font-family: 'Space Mono', sans-serif;
     font-size: 1rem;
-  }
+}
 
-.container container-nav ul, li{
+.container-nav ul, li {
     float: right;
-  }
+}
 
-.container container-nav ul, li a {
+.container-nav ul li a {
     display: block;
     color: black;
     text-align: center;
     padding: 14px 17px;
     text-decoration: none;
-  }
+}
 
-.container container-nav ul, li a:hover {
+.container-nav ul li a:hover {
     background-color: #97f3f6;
-  }
+}
 
-  .nav a.active {
+.nav a.active {
     background-color: #ddd;
     color: black;
-  }
+}
 
-  .title {
+/* .title class already defined above */
+/* .title {
     color: black;
     font-family: 'Playfair Display';
     text-align: center;
     font-size: 2.9375rem;
-  }
+} */
 
-  .hero_role {
+.hero_role {
     font-size: 1.3rem;
-   }
+}
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 /* dog image */
 
-.alert{
-  display:none;
+.alert {
+    display: none;
 }
 
-img{
-  max-height:300px;
+img {
+    max-height: 300px;
 }
 
-#listImageContainer{
-  margin-top:30px;
+#listImageContainer {
+    margin-top: 30px;
 }
 
 /* button */
 
-button{
+button {
     background-color: #D9D9D9;
     color: black;
     font-family: 'Space Mono', monospace;
@@ -140,39 +144,34 @@ button{
     border-radius: 7px;
     margin: -5px -50px;
     margin-bottom: 20px;
-    position:relative;
-    top:20%;
-    left:50%;
+    position: relative;
+    top: 20%;
+    left: 50%;
 }
 
 button:hover {
     background-color: #97f3f6;
     color: black;
-  }
-
+}
 
 /* footer */
 
-  .cards {
+.cards {
     display: grid;
     align-items: center;
     grid-gap: 30px;
     margin-bottom: 20px;
     border-radius: 10px;
-  }
+}
 
-  .card {
-
-  }
-
-  .card {
+.card {
     background-color: #fff;
     box-shadow: 3px 5px #b5c0f6;
     border-radius: 7px;
-  }
+}
 
 .page_footer {
     text-align: center;
     padding: 1em 0;
     font-size: .9rem;
-  }
+}
