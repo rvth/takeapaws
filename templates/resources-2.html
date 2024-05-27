@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Space+Mono&display=swap&family=Shrikhand&display=swap" rel="stylesheet">
+    <title>Take a Paws</title>
+
+</head>
+
+<body>
+<header>
+    <nav>
+        <div class="container container-nav">
+            <ul>
+            <li><a href="{{ url_for('about') }}">About</a></li>
+            <li><a class="active" href="{{ url_for('home') }}">Home</a></li>
+            </ul>
+
+
+<img alt="Resources" src="{{url_for('static', filename='resources.webp')}}">
+
+<h3>Mental Health Support</h3>
+<p><a href="https://www.samaritans.org/how-we-can-help/contact-samaritan/">Samaritans</p></a>
+<p><a href="https://www.sane.org.uk/how-we-help/emotional-support/saneline-services">Sane</p></a>
+<p><a href="https://www.papyrus-uk.org/papyrus-hopelineuk/">Papyrus</p></a>
+<p><a href="https://www.nhs.uk/service-search/mental-health/find-an-urgent-mental-health-helpline">NHS Crisis Line</p></a>
+<p><a href="https://giveusashout.org/">Shout Text Support</p></a>
+
+
+<h3>Support Dogs in the Homeless Community</h3>
+<p><a href="https://dogsonthestreets.org/">Dogs on the Street</p></a>
+<p><a href="https://www.streetvet.co.uk/">Street Vet</p></a>
+
+
+<h3>Support Elderly or Terminally Ill Dog Owners</h3>
+<p><a href="https://cinnamon.org.uk/">The Cinnamon Trust</p></a>
+<p><a href="https://www.caredogs.org.uk/">Care Dogs</p></a>
+
+
+<h3>Low Income Support for Dog Owners</h3>
+<p><a href="https://www.pdsa.org.uk/pet-help-and-advice/eligibility">PDSA</p></a>
+<p><a href="https://www.rspca.org.uk/whatwedo/care/financial">RSPCA</p></a>
+<p><a href="https://www.bluecross.org.uk/veterinary">Blue Cross</p></a>
+<p><a href="https://www.dogstrusthopeproject.org.uk/help-with-vet-care/introduction">Dogs Trust</p></a>
+
+<br>
+<br>
+</body>

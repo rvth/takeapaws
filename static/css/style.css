@@ -4,21 +4,21 @@ title{
     color: black;
     font-size: 4.375rem;
     font-weight: bold;
-    font-family: 'Shrikhand', cursive;
+    font-family: 'Playfair Display', monospace;
 }
 
 h1{
     color: black;
     font-size: 1.875rem;
     font-weight: bold;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Playfair Display', monospace;
 }
 
 h2{
     color: black;
     font-size: 1.70rem;
     font-weight: bold;
-    font-family: 'Shrikhand', cursive;
+    font-family: 'Playfair Display', cursive;
     text-align: center;
 }
 
@@ -26,7 +26,7 @@ h3{
     color: black;
     font-size: 1.25rem;
     font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Space Mono', sans-serif;
     text-align: center;
 }
 
@@ -70,8 +70,8 @@ ul {
     padding: 0;
     overflow: hidden;
     color: black;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.25rem;
+    font-family: 'Space Mono', sans-serif;
+    font-size: 1rem;
   }
 
 .container container-nav ul, li{
@@ -97,7 +97,7 @@ ul {
 
   .title {
     color: black;
-    font-family: 'Shrikhand', cursive;
+    font-family: 'Playfair Display';
     text-align: center;
     font-size: 2.9375rem;
   }
@@ -176,4 +176,3 @@ button:hover {
     padding: 1em 0;
     font-size: .9rem;
   }
-
