@@ -10,45 +10,53 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <link rel="icon" href="{{ url_for('static', filename='favicon.webp') }}" type="image/x-icon">
 
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-WXGVDP69');</script>
-    <!-- End Google Tag Manager -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WXGVDP69');</script>
+<!-- End Google Tag Manager -->
 </head>
 
 <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WXGVDP69"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WXGVDP69"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <nav>
+        <div class="container container-nav">
+            <ul>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+                <li><a class="active" href="{{ url_for('home') }}">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+<br>
+<br>
+    <h1>Take a Paws</h1>
 
-    <header>
-        <nav>
-            <div class="container container-nav">
-                <ul>
-                    <li><a href="{{ url_for('about') }}">About</a></li>
-                    <li><a class="active" href="{{ url_for('home') }}">Home</a></li>
-                </ul>
-            </div>
-        </nav>
-        <h1>Take a Paws</h1>
-    </header>
 
-    <h3>Click the button below for a surprise &#128062;</h3>
+<h3>Click the button below for a surprise &#128062;</h3>
 
-    <button class="btn btn-primary random" aria-label="Fetch a random dog image">Fetch &#128021;</button>
+<br>
 
-    <div id="dogImageContainer"></div>
+<button class="btn btn-primary random" aria-label="Fetch a random dog image">Fetch &#128021;</button>
 
-    <script src="{{url_for('static', filename='script.js')}}"></script>
+      <div id="dogImageContainer"></div>
 
-    <h2>you can always find hope in the eyes of a dog</h2>
+<script src="{{url_for('static', filename='script.js')}}"></script>
 
-    <footer class="page_footer">
-        <p>&#128062; Made with &#128420; by Ruth</p>
-    </footer>
+<br>
+<br>
+<br>
+<h2>you can always find hope in the eyes of a dog</h2>
+<br>
+<br>
 </body>
-</html>
+
+<footer class="page_footer">
+<p>&#128062; Made with &#128420; by Ruth</p>
+
+</footer>
+
