@@ -1,76 +1,164 @@
-/* Reset CSS */
-html, body, header, nav, footer, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
+/* layout */
+
+h1{
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Playfair Display', monospace;
+    text-align: center;
+    margin-bottom: 10px;
 }
-/* Global Styles */
+
+/* Media query for smaller devices */
+@media only screen and (max-width: 768px) {
+    h1 {
+        padding: 10px; /* Adjust padding for smaller devices */
+    }
+}
+
+h2 {
+    color: black;
+    font-size: 1.70rem;
+    font-weight: bold;
+    font-family: 'Playfair Display', cursive; /* Note: Playfair Display is not a cursive font */
+    text-align: center;
+}
+
+h3 {
+    color: black;
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: 'Space Mono', sans-serif;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
 body {
     color: black;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
+    font-size: 1.0625rem;
     background: #FAFAFA;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px; /* Adjust as needed */
+/* images */
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-/* Header Styles */
-header {
-    text-align: center;
-    padding: 20px 0;
+.responsive {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
 }
 
-.container-nav ul {
+/* nav and header */
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    color: black;
+    font-family: 'Space Mono', sans-serif;
+    font-size: 1rem;
+}
+
+.container-nav ul {
+    float: right;
 }
 
 .container-nav ul li {
-    display: inline;
+    float: right;
 }
 
 .container-nav ul li a {
-    display: inline-block;
+    display: block;
     color: black;
+    text-align: center;
+    padding: 14px 17px;
     text-decoration: none;
-    padding: 10px 20px;
 }
 
 .container-nav ul li a:hover {
     background-color: #97f3f6;
 }
 
-h1 {
-    font-size: 3rem;
-    font-weight: bold;
-    font-family: 'Playfair Display', monospace;
-    margin-bottom: 20px;
+.nav a.active {
+    background-color: #ddd;
+    color: black;
 }
 
-/* Button Styles */
+.hero_role {
+    font-size: 1.3rem;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* dog image */
+
+.alert {
+    display: none;
+}
+
+img {
+    max-height: 300px;
+}
+
+#listImageContainer {
+    margin-top: 30px;
+}
+
+/* button */
+
 button {
     background-color: #D9D9D9;
     color: black;
     font-family: 'Space Mono', monospace;
-    padding: 10px 20px;
-    font-size: 1rem;
-    border: none;
-    border-radius: 5px;
+    padding: 10px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 7px;
+    margin: -5px -50px;
     margin-bottom: 20px;
-    cursor: pointer;
+    position: relative;
+    top: 20%;
+    left: 50%;
 }
 
 button:hover {
     background-color: #97f3f6;
+    color: black;
 }
 
-/* Footer Styles */
+/* footer */
+
+.cards {
+    display: grid;
+    align-items: center;
+    grid-gap: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 3px 5px #b5c0f6;
+    border-radius: 7px;
+}
+
 .page_footer {
     text-align: center;
-    padding: 20px 0;
-    font-size: 0.8rem;
+    padding: 1em 0;
+    font-size: .9rem;
 }
