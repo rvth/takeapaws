@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Take a Paws</title>
     <meta name="description" content="Take a Paws - Discover delightful dog images and feel the joy in the eyes of a dog. Click for a surprise!">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300&family=Space+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+    <link rel="icon" href="{{ url_for('static', filename='favicon.webp') }}" type="image/x-icon">
 
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -23,7 +24,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WXGVDP69"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-
+    <nav>
+        <div class="container container-nav">
+            <ul>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+                <li><a class="active" href="{{ url_for('home') }}">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+<br>
+<br>
     <h1>Take a Paws</h1>
 
 <p>From one anxious dog lover to another. Life can be a lot, and sometimes we just need to pause, take a moment and look at pictures of dogs.</p>
