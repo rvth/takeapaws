@@ -150,6 +150,10 @@ button:hover {
     color: black;
   }
 
+button {
+    cursor: pointer;
+}
+
 
 /* footer */
 
