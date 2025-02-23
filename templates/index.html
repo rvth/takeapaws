@@ -2,52 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Space+Mono&display=swap" rel="stylesheet">
     <title>Take a Paws</title>
-    <meta name="description" content="Take a Paws - Discover delightful dog images and feel the joy in the eyes of a dog. Click for a surprise!">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300&family=Space+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-    <link rel="icon" href="{{ url_for('static', filename='favicon.webp') }}" type="image/x-icon">
 
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-WXGVDP69');</script>
-<!-- End Google Tag Manager -->
 </head>
 
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WXGVDP69"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-    <nav>
-        <div class="container container-nav">
-            <ul>
-                <li><a href="{{ url_for('about') }}">About</a></li>
-                <li><a class="active" href="{{ url_for('home') }}">Home</a></li>
-            </ul>
-        </div>
-    </nav>
-<br>
-<br>
-    <h1>Take a Paws</h1>
+<header>
+  <div class="container container-header">
+        <h1 class="title">
+            Take a Paws
+        </h1>
+    </div>
+</header>
 
+<br>
 
 <h3>Click the button below for a surprise &#128062;</h3>
 
 <br>
 
-<button class="btn btn-primary random" aria-label="Fetch a random dog image">Fetch &#128021;</button>
+<button class="btn btn-primary random" aria-label="Fetch a random dog image">Fetch &#128062;</button>
 
       <div id="dogImageContainer"></div>
 
 <script src="{{url_for('static', filename='script.js')}}"></script>
 
-<br>
 <br>
 <br>
 <h2>you can always find hope in the eyes of a dog</h2>
@@ -56,7 +39,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </body>
 
 <footer class="page_footer">
-<p>&#128062; Made with &#128420; by Ruth</p>
+<p>&#128062; Made with &#129294; by Ruth</p>
 
 </footer>
 

@@ -1,30 +1,28 @@
 /* layout */
 
+title{
+    color: black;
+    font-size: 4.375rem;
+    font-weight: bold;
+    font-family: 'Shrikhand', cursive;
+}
+
 h1{
     color: black;
-    font-size: 50px;
+    font-size: 1.875rem;
     font-weight: bold;
-    font-family: 'Playfair Display', monospace;
-    text-align: center;
-    margin-bottom: 10px;
+    font-family: 'Space Mono', sans-serif;
 }
 
-/* Media query for smaller devices */
-@media only screen and (max-width: 768px) {
-    h1 {
-        padding: 10px; /* Adjust padding for smaller devices */
-    }
-}
-
-h2 {
+h2{
     color: black;
     font-size: 1.70rem;
     font-weight: bold;
-    font-family: 'Playfair Display', cursive; /* Note: Playfair Display is not a cursive font */
+    font-family: 'Playfair Display', cursive;
     text-align: center;
 }
 
-h3 {
+h3{
     color: black;
     font-size: 1.25rem;
     font-weight: bold;
@@ -32,13 +30,21 @@ h3 {
     text-align: center;
 }
 
-p {
+h1, h2, h3, h4, h5, h6{
+    margin-top:20px;
+    margin-bottom:10px;
+    margin-left: 20px;
+  }
+
+p{
+    margin-left: 20px;
+    margin-right: 20px;
     text-align: center;
 }
 
 body {
     color: black;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Space Mono', sans-serif;
     font-size: 1.0625rem;
     background: #FAFAFA;
 }
@@ -46,15 +52,15 @@ body {
 /* images */
 
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .responsive {
-    width: 100%;
-    max-width: 1000px;
-    height: auto;
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
 }
 
 /* nav and header */
@@ -64,63 +70,66 @@ ul {
     padding: 0;
     overflow: hidden;
     color: black;
-    font-family: 'Space Mono', sans-serif;
-    font-size: 1rem;
-}
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+  }
 
-.container-nav ul {
+.container container-nav ul, li{
     float: right;
-}
+  }
 
-.container-nav ul li {
-    float: right;
-}
-
-.container-nav ul li a {
+.container container-nav ul, li a {
     display: block;
     color: black;
     text-align: center;
     padding: 14px 17px;
     text-decoration: none;
-}
+  }
 
-.container-nav ul li a:hover {
+.container container-nav ul, li a:hover {
     background-color: #97f3f6;
-}
+  }
 
-.nav a.active {
+  .nav a.active {
     background-color: #ddd;
     color: black;
-}
+  }
 
-.hero_role {
+  .title {
+    color: black;
+    font-family: 'Playfair Display';
+    text-align: center;
+    font-size: 2.9375rem;
+  }
+
+  .hero_role {
     font-size: 1.3rem;
-}
+   }
 
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /* dog image */
 
-.alert {
-    display: none;
+.alert{
+  display:none;
 }
 
-img {
-    max-height: 300px;
+img{
+  max-height:300px;
 }
 
-#listImageContainer {
-    margin-top: 30px;
+#listImageContainer{
+  margin-top:30px;
 }
 
 /* button */
 
-button {
+button{
     background-color: #D9D9D9;
     color: black;
     font-family: 'Space Mono', monospace;
@@ -131,34 +140,39 @@ button {
     border-radius: 7px;
     margin: -5px -50px;
     margin-bottom: 20px;
-    position: relative;
-    top: 20%;
-    left: 50%;
+    position:relative;
+    top:20%;
+    left:50%;
 }
 
 button:hover {
-    background-color: #97f3f6;
+    background-color: #a47864;
     color: black;
-}
+  }
+
 
 /* footer */
 
-.cards {
+  .cards {
     display: grid;
     align-items: center;
     grid-gap: 30px;
     margin-bottom: 20px;
     border-radius: 10px;
-}
+  }
 
-.card {
+  .card {
+
+  }
+
+  .card {
     background-color: #fff;
     box-shadow: 3px 5px #b5c0f6;
     border-radius: 7px;
-}
+  }
 
 .page_footer {
     text-align: center;
     padding: 1em 0;
     font-size: .9rem;
-}
+  }
